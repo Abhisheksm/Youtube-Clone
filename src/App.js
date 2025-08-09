@@ -2,7 +2,6 @@ import './App.css';
 import {Provider} from 'react-redux'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Body from './Components/Body';
-import Head from './Components/Head';
 import store from './Components/utils/store';
 import MainContainer from './Components/MainContainer';
 import WatchPage from './Components/WatchPage';

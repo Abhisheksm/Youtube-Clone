@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react'
 import { useSelector } from 'react-redux'
-import SearchedVideoCard from './SearchedVideoCard'
 import { Link } from 'react-router-dom'
 
 const LazySearchedVideoCard = lazy(() => import(

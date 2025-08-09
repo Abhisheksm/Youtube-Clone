@@ -54,7 +54,7 @@ const commentData = [
 ]
 
 const Comment = ({data}) =>{
-    const {name, comment, replies} = data
+    const {name, comment} = data
 return(
     <>
     <div className='flex p-2 my-3 bg-gray-50 rounded-lg shadow-md'>
